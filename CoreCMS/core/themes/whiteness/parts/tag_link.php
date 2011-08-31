@@ -1,0 +1,1 @@
+<p class="tag-link"><a name="tag<? echo $tag_id; ?>" href="#tag-<? echo _encode($tag_text); ?>"><? echo $tag_text; ?></a></p>

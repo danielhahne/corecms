@@ -1,0 +1,202 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:#FFF;
+	color:#000;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+	padding:30px;
+}
+
+/*BASIC ELEMENTS*/
+
+#menu {
+	padding:5px;
+}
+
+#first {
+	position:absolute;
+	margin:0 40px 0 0;
+	width:220px;
+}
+	
+	#logotype {
+		float:left;
+	}
+	
+	#core-loader {
+		display:none;
+		float:right;
+	}
+	
+	
+	
+#entries {
+	margin:0 0 0 260px;
+	max-width:500px;
+	float:left;
+}
+
+#load-content {
+	padding:0 0 0 5px;
+}
+
+/* MENU */
+.page-link {
+	font-weight:bold;
+}
+
+.page-link:hover {
+	background-color:#F66;
+}
+
+#entries .entry-link:hover {
+	background-color:#FC9;
+}
+
+.tag-link a {
+	color:#999;
+}
+
+.tag-link:hover {
+	background-color:#FF6;
+}
+
+#entries p {
+	float:left;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding:2px;
+	margin:0 15px 7px 0;
+}
+
+/*GENERAL*/
+
+.link-active {
+	background-color:#CCC;
+}
+
+.clear {
+	clear:both;
+}
+
+.clear-margin {
+	clear:both;
+	height:120px;
+}
+
+img
+{  
+	border-style: none;
+}
+
+a {
+	outline: none;
+	color:#333;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#999;
+}
+
+/*ENTRY*/
+.entry-title {
+	font-size:13px;
+	margin:0 0 30px 0;
+}
+
+.entry-extra {
+	font-size:10px;
+	color:#666;
+}
+
+.entry-line {
+	height:50px;
+	clear:both;
+}
+
+.entry {
+	width:700px;
+	margin:0 0 30px 0;
+}
+
+.entry img {
+	margin:0 0 20px 0;
+}
+
+.entry-extra1 {
+	float:left;
+	margin:0 30px 0 0;
+}
+
+.entry-extra2 {
+	float:right;
+}
+
+.entry-text {
+	margin:0 0 20px 0;
+}
+
+.entry-text-top {
+	margin:0 0 20px 0;
+}
+
+#close-entry {
+	cursor:pointer;
+	color:#333333;
+}
+
+.button {
+	float:left;
+	margin:0 5px 0 0;
+	background-color:#E9E9E9;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding:5px;
+}
+
+#close-entry:hover {
+	color:#FFFFFF;
+}
+
+
+/*ENTRY THUMBS*/
+
+.thumb {
+	padding:5px;
+	float:left;
+	margin:0 30px 30px 0;
+	height:140px;
+	width:220px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+
+}
+
+.thumb-content {
+	visibility:hidden;
+}
+
+.thumb:hover {
+	background-color:#E9E9E9;
+}
+
+#thumbs .entry-text:hover {
+	background:#232323;
+	padding:0;
+}
+
+#footer {
+	position:fixed;
+	bottom:5px;
+	left:5px;
+	color:#999;
+	background-color:#F0F0F0;
+	padding:4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}

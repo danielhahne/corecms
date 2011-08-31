@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^([0-9]+)$ index.php?entry=$1 [NC]
