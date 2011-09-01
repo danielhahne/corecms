@@ -1,4 +1,4 @@
-Core CMS v1.34
+CoreCMS v1.34
 
 Copyright (C) 2011  Andreas Klein & Simon Jakobsson
 
