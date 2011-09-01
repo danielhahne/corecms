@@ -1,6 +1,12 @@
-CORE CMS v1.3.4
+CoreCMS v1.3.4
 
 Be sure to check the LICENSE file if you haven't.
+
+__________________________________________
+Getting Started Core
+
+
+Install CoreCMS on your Webserver
 
 To begin installation, copy the contents of the folder "CoreCMS" (or the whole folder itself if you'd like) to your server.
 
