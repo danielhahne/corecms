@@ -10,8 +10,6 @@ thx andr3ws
 
 
 ## Install CoreCMS on your Webserver
-##--------------------------------
-
 To begin installation, copy the contents of the folder "CoreCMS" (or the whole folder itself if you'd like) to your server.
 
 (NOTE: There has been reported errors when putting the directory named "core" in another directory named "core". 
@@ -23,8 +21,6 @@ call just example.com and Core automatically runs the Installer for you.
 
 
 ##UPRAGDE
-##-------
-
 There exists no upgrade script from < 1.21 to 1.34 at the moment. You need to go the hard way and use the new 
 Installer and then manually copy you Database content. Sorry for that, i work on it!
 
