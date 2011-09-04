@@ -15,12 +15,16 @@ To begin installation, copy the contents of the folder "CoreCMS" (or the whole f
 (NOTE: There has been reported errors when putting the directory named "core" in another directory named "core". 
 Try avoid this; putting it in a directory named "Core" (capitalized first letter) works fine.)
 
-Then navigate to example.com/whatever/directory/core/install/ and start the installation. 
-Or since v1.34 you can navigate to example.com/whatever/directory or if you want to install Core on a TLD 
-call just example.com and Core automatically runs the Installer for you.
+Then navigate to www.example.com/whatever/directory/core/install/ and start the installation. 
+Or since v1.34 you can navigate to www.example.com/whatever/directory or if you want to install Core on a TLD 
+call just www.example.com and Core automatically runs the Installer for you.
 
 
+<<<<<<< HEAD
 ##Upgrade to higher version of CoreCMS
+=======
+## UPRAGDE
+>>>>>>> update information to v1.34
 There exists no upgrade script from < 1.21 to 1.34 at the moment. You need to go the hard way and use the new 
 Installer and then manually copy you Database content. Sorry for that, i work on it!
 
