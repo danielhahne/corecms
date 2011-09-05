@@ -15,7 +15,7 @@ body {
 div#header {
 	width:90%;
 	background:#f4f4f4;
-	padding:10% 0 0 10%;
+	padding:10% 0 10px 10%;
 	margin:0 0 60px 0;
 	height:20px;
 }
@@ -24,9 +24,21 @@ div#header {
 	font-size:10px;
 	color:#333;
 	padding:4px 0 0 0;
-	margin:0 40px 0 0;
+	margin:0 35px 0 0;
 	float:left;
 	cursor:pointer;
+}
+
+.logout {
+	margin:0 0 0 50px !important;
+}
+
+.menu-obj img, .menu-obj p {
+	float: left;
+}
+
+.menu-obj p {
+	padding: 5px 0 0 8px;
 }
 
 .menu-obj:hover {

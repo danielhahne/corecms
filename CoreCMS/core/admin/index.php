@@ -110,13 +110,13 @@ $(document).ready(function(){
 
 <div id="header">
 <p id="logo"><img src="gfx/core_logo_small_black.png" /></p>
-        <div class="menu-obj home" onclick="get_data('show_statistics')">OVERVIEW</div>
-        <div class="menu-obj config" onclick="get_data('show_config')">CONFIGURATION</div>
-        <div class="menu-obj content" onclick="get_data('show_entries')">CONTENT</div>
-        <div class="menu-obj tags" onclick="get_data('show_tags')">TAGS</div>
-        <div class="menu-obj style" onclick="get_data('show_themes')">STYLE/LAYOUT</div>
-        <div class="menu-obj info" onclick="get_data('show_info')">INFO/FAQ</div>
-        <div class="menu-obj logout"><a href="functions/logout.php">&mdash;Logout</a></div>
+        <div class="menu-obj home" onclick="get_data('show_statistics')"><img src="gfx/menu_home.png" width="16px"/><p>OVERVIEW</p></div>
+        <div class="menu-obj config" onclick="get_data('show_config')"><img src="gfx/menu_config.png" width="16px"/><p>CONFIGURATION</p></div>
+        <div class="menu-obj content" onclick="get_data('show_entries')"><img src="gfx/menu_content.png" width="16px"/><p>CONTENT</p></div>
+        <div class="menu-obj tags" onclick="get_data('show_tags')"><img src="gfx/menu_tags.png" width="16px"/><p>TAGS</p></div>
+        <div class="menu-obj style" onclick="get_data('show_themes')"><img src="gfx/menu_style.png" width="16px"/><p>STYLE/LAYOUT</p></div>
+        <div class="menu-obj info" onclick="get_data('show_info')"><img src="gfx/menu_info.png" width="16px"/><p>INFO/FAQ</p></div>
+        <div class="menu-obj logout"><a href="functions/logout.php"><img src="gfx/menu_logout.png" width="16px"/></a></div>
 </div>
 
 <div id="debug"></div>
