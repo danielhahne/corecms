@@ -20,11 +20,7 @@ Or since v1.34 you can navigate to www.example.com/whatever/directory or if you 
 call just www.example.com and Core automatically runs the Installer for you.
 
 
-<<<<<<< HEAD
 ##Upgrade to higher version of CoreCMS
-=======
-## UPRAGDE
->>>>>>> update information to v1.34
 There exists no upgrade script from < 1.21 to 1.34 at the moment. You need to go the hard way and use the new 
 Installer and then manually copy you Database content. Sorry for that, i work on it!
 
@@ -40,3 +36,49 @@ no problem.
 Just put this core folder somewhere where it doesn't replace your old one. For example, if your current website 
 is www.example.com, your current core folder is at www.example.com/core, put the new one at something like 
 www.example.com/new-core/core.
+
+## Change History
+
+Changes from Core v1.21 to 1.34
+
+Some structural/design changes to the admin panel.
+Brand new Installer.
+Added a new Field CORE(ENTRY:VISIT) for a external Link to what the entry is about (Visit site).
+
+You can now upload themes in the admin panel. In the main menu under "Styles/Layout" is now a new field called upload. 
+HINT: You need to upload your new theme as zipped version.
+
+__________________________________________
+
+Changes from Core v1.2 to 1.21
+
+Some structural changes to the admin panel.
+Fix in all themes to make sure IE users can browse the site without problems.
+
+__________________________________________
+
+Changes from Core v1.1 to 1.2
+
+You can now edit the index head by using the admin panel, so basically, other than uploading Core to your server, now interaction outside a browser is needed.
+
+Upgraded themes blackthumb (now "darkthumbs") and simple (now "simple2) which now support Safari 4 amongst other browsers.
+
+Added two new commands, CORE(TAG:TITLE:URL) and CORE(PAGE:TITLE:URL) which returns url friendly versions of the variables, as demonstrated by all three supplied themes.
+
+Changing a file in the admin panel doesn't redirect you back one step, this was ineffective when working with css and scripts.
+
+Added better security for front-end interaction with the database.
+
+Quotes doesn't get backslashes in front of them when adding new files with code.
+
+--------------------------------
+
+Changes from Core v1.0 to 1.1
+
+Core is now not limited to the root. So if you have your core directory in: http://www.yourserver.com/core/ and you don't want it there, just move it to wherever you like. For example: www.yourserver.com/corecms/core/.
+
+New functionality and looks of the admin panel. It's just better.
+
+A new and better installer which also works as an upgrader for Core v06 or v05.
+
+There's a lot more the admin panel can do and I won't bother to write a list of things, just try it! :)

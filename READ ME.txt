@@ -35,6 +35,9 @@ Some structural/design changes to the admin panel.
 Brand new Installer.
 Added a new Field CORE(ENTRY:VISIT) for a external Link to what the entry is about (Visit site).
 
+You can now upload themes in the admin panel. In the main menu under "Styles/Layout" is now a new field called upload. 
+HINT: You need to upload your new theme as zipped version.
+
 
 
 __________________________________________
