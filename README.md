@@ -20,7 +20,7 @@ Or since v1.34 you can navigate to example.com/whatever/directory or if you want
 call just example.com and Core automatically runs the Installer for you.
 
 
-##UPRAGDE
+##UPGRADE TO HIGHER VERSION
 There exists no upgrade script from < 1.21 to 1.34 at the moment. You need to go the hard way and use the new 
 Installer and then manually copy you Database content. Sorry for that, i work on it!
 
