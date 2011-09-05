@@ -1,5 +1,5 @@
 <?php
-	$version 			=  	'1.3.1'; 
+	$version 			=  	'1.3.4'; 
 	$authors   			=  	'Simon Jakobsson and Andreas Klein';
 	$copyright_year 	= 	"2009-2011";
 	$license_text 		=   'This program is free software: you can redistribute it and/or modify<br /> 
