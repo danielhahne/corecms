@@ -106,7 +106,7 @@ $(document).ready(function(){
 </head>
 
 <body>
-<div id="update">There is an update available. Visit <a href="http://weareastronauts.org/core-cms/" target="_blank">weareastronauts.org/core-cms/</a> to download it!</div>
+<div id="update">There is an update available. Visit <a href="http://core-cms.info" target="_blank">Core-CMS.info</a> to download it!</div>
 
 <div id="header">
 <p id="logo"><img src="gfx/core_logo_small_black.png" /></p>
