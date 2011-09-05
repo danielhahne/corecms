@@ -1,4 +1,4 @@
-# core.cms
+# CoreCMS - The Portfolio Content-Management System for Designer and Developer
 
 ## Core is a flexible ajax driven CMS devolped by Simon Jakobsson and further developed by Andreas Klein. 
 After one year stopped development i want expand this beautiful ajax and php driven Content-Management System. 
